@@ -13,8 +13,8 @@ services:
     volumes:
       - ./db:/data/db
     networks:
-      - my_network
+      - joker_network
 
 networks:
-  my_network:
-    name: my_network
+  joker_network:
+    name: joker_network

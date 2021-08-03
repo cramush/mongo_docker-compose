@@ -1,4 +1,4 @@
 migrate:
     sudo chmod 777 -R db
     docker build . -f Dockerfile.migrate -t mongo_migrate
-    docker run -it --network my_network mongo_migrate
+    docker run -it --network joker_network mongo_migrate
